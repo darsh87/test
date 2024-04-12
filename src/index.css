@@ -1,0 +1,55 @@
+body{
+  font-family: "Roboto", sans-serif;
+  background: #00000024;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3{
+  margin:0 ;
+}
+p{
+  margin: 0;
+}
+
+/* #root{
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+} */
+
+.slide {
+  padding: 0 5px;/* Add left and right padding to create a gap between slides */
+  background-color: white;
+}
+.slick-next{
+  right: 25px;
+}
+.slick-slider {
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.slick-list{
+  padding-bottom: 50px;
+}
+
+.slick-dots{
+  bottom: 0;
+}
+.box {
+  width: 100%;
+  height: auto;
+  background-color: #f3fcf9;
+  color: #272727;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 24px;
+  padding: 25px;
+}
